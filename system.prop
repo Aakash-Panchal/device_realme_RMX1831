@@ -19,10 +19,6 @@
 # System Properties for Realme U1: RMX1831
 #
 
-# LCD density
-ro.sf.lcd_density=480
-
-
 # Cam2Api
 persist.camera.HAL3.enabled=1
 
