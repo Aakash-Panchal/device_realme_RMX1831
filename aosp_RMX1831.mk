@@ -47,10 +47,17 @@ TARGET_VENDOR := realme
 TARGET_VENDOR_PRODUCT_NAME := RMX1831
 TARGET_VENDOR_DEVICE_NAME := RMX1831
 
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.ppui.device_name=realme U1 \
+ro.ppui.version=3.4 \
+ro.ppui.version_code=Onyx \
+ro.ppui.is_official=true \
+ro.ppui.maintainer_name=Radeon
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="RMX1831" \
     PRODUCT_NAME="RMX1831" \
     PRIVATE_BUILD_DESC="full_oppo6771_18611-user 9 PPR1.180610.011 eng.root.20200915.143154 release-keys"
     
-BUILD_FINGERPRINT := "google/sunfish/sunfish:S/SPP1.210122.020.A3/7145137:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys"
 
